@@ -2,9 +2,8 @@
 
 /**
  *print_numbers - print 0123456789
- *owned by marto g
  *Return: void
- **/
+ */
 
 void print_numbers(void)
 {
