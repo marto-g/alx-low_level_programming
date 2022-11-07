@@ -37,6 +37,9 @@ int main(int argc, char **argv)
 				}
 			}
 		}
+		if (total == 1)
+			count++;
+	}
 		else
 		{
 			printf("Error\n");
@@ -45,4 +48,4 @@ int main(int argc, char **argv)
 
 		printf("%d\n", count);
 		return (0);
-	}
+}
